@@ -1,4 +1,28 @@
-﻿
+﻿Console.WriteLine($"Введите количество чисел: ");
+int numder = Convert.ToInt32(Console.ReadLine());
+
+if (numder > 0)
+{
+    int summer = 0;
+    for (int i = 0; i < numder; i++)
+    {
+        Console.Write($"Bведите число: ");
+        int numder_1 = Convert.ToInt32(Console.ReadLine());
+
+        if (numder_1 > 0)
+        {
+            summer++;
+        }
+    }
+    
+    
+    Console.WriteLine($"Чисел больше 0: {summer}");
+}
+else
+{
+    Console.WriteLine($"Ведено 0 или отрицательное количество чисел");
+}
+
 
 
 /* // через массив
