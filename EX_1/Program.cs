@@ -1,4 +1,4 @@
-﻿Console.WriteLine($"Введите количество чисел: ");
+﻿Console.WriteLine($"Сколько целых чисел будет введено: ");
 int numder = Convert.ToInt32(Console.ReadLine());
 
 if (numder > 0)
